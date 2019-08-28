@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         googleButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                String google = "http://www.yahoo.com";
+                String google = "http://www.google.com";
                 Uri webaddress = Uri.parse(google);
 
                 Intent goToGoogle = new Intent(Intent.ACTION_VIEW,webaddress);
